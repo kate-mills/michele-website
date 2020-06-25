@@ -7,7 +7,7 @@ import Layout from '../../hoc/Layout'
 const HomePage = props => {
   return(
     <Layout>
-      <div>HomePage</div>
+      <div>Hello from HomePage</div>
     </Layout>
   )
 }
