@@ -2,8 +2,8 @@ import React from 'react'
 import './App.css'
 
 import HomePage from './pages/HomePage'
-import Products from './pages/products'
-import Product from './pages/products/product'
+import Products from './pages/Products'
+import Product from './pages/Products/product'
 import Error from './pages/Error'
 
 import { Route, Switch } from 'react-router-dom'
