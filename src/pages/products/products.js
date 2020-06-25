@@ -7,7 +7,7 @@ const Products = props => {
   return (
     <Layout>
       <div>
-        Products
+        Hello from Products
       </div>
     </Layout>
   )
