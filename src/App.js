@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 
-import HomePage from './pages/homepage'
+import HomePage from './pages/HomePage'
 import Products from './pages/products'
 import Product from './pages/products/product'
 import Error from './pages/Error'

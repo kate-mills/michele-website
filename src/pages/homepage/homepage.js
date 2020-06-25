@@ -1,9 +1,15 @@
 import React from 'react'
 
-//import classes from './homepage.module.css'
+//import classes from './HomePage.module.css'
+
+import Layout from '../../hoc/Layout'
 
 const HomePage = props => {
-  return <div>HomePage</div>
+  return(
+    <Layout>
+      <div>HomePage</div>
+    </Layout>
+  )
 }
 
 export default HomePage
