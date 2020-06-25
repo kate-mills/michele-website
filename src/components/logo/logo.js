@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './logo.module.css'
+import classes from './Logo.module.css'
 
 const Logo = ({ src, alt }) => {
   return (
