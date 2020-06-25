@@ -1,21 +1,17 @@
 import React from 'react'
-import { FaFacebookF, FaTwitterSquare, FaInstagram } from 'react-icons/fa'
+import { GrFacebook, GrYoutube, GrInstagram } from 'react-icons/gr'
 
 export default [
   {
-    icon: <FaFacebookF />,
+    icon: <GrFacebook />,
     url: 'https://www.facebook.com/michelecorleyclinicalskincare/',
   },
   {
-    icon: <FaYouTube />
+    icon: <GrYouTube />,
     url: 'https://www.youtube.com/channel/UCjVjZL0axnqV9EFCrCp3yaQ',
   },
   {
-    icon: <FaInstagram />,
+    icon: <GrInstagram />,
     url: 'https://www.instagram.com/michelecorleyskincare/',
-  },
-  {
-    icon: <img src="https://i.imgur.com/pOlKWBb.png" alt="instagram icon"/>,
-    url: 'https://www.instagram.com/michelecorleyskincare/'
   },
 ]
