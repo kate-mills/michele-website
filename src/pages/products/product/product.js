@@ -7,7 +7,7 @@ class Product extends Component {
   render () {
     return (
       <Layout>
-        <div>Single Product</div>
+        <div>Hello from Single Product</div>
       </Layout>
     )
   }
