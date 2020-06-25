@@ -3,7 +3,7 @@ import './App.css'
 
 import HomePage from './pages/HomePage'
 import Products from './pages/Products'
-import Product from './pages/Products/product'
+import Product from './pages/Products/Product'
 import Error from './pages/Error'
 
 import { Route, Switch } from 'react-router-dom'
@@ -14,7 +14,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/products" component={Products} />
-        <Route exact path="/product/:slug" component={Product} />
+        <Route exact path="/products/:slug" component={Product} />
         <Route component={Error} />
       </Switch>
     </>

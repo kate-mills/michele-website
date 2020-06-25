@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
-//import classes from './product.module.css'
+//import classes from './Product.module.css'
+
+import Layout from '../../../hoc/Layout'
 
 class Product extends Component {
-  render() {
-    return <div>Single Product</div>
+  render () {
+    return (
+      <Layout>
+        <div>Single Product</div>
+      </Layout>
+    )
   }
 }
 
