@@ -1,25 +1,15 @@
-import React from 'react'
-
-import Aux from '../Aux'
+import React, {Component} from 'react'
 import classes from './Layout.module.css'
 
-class Layout extends React.Component {
-  state = {
-    showSideDrawer: false,
-  }
-  sideDrawerClosedHandler = () => {
-    this.setState({ showSideDrawer: false })
-  }
-  toggleSideDrawer = () => {
-    this.setState(prevState => {
-      return { showSideDrawer: !prevState.showSideDrawer }
-    })
-  }
+import Aux from '../Aux'
+import Navbar from '../../components/Navbar'
 
+class Layout extends Component {
   render() {
     return (
       <Aux>
-        <main className={classes.Content}>{this.props.children}</main>
+        <Navbar />
+        <main className={classes.content}>{this.props.children}</main>
       </Aux>
     )
   }
