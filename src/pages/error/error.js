@@ -1,9 +1,17 @@
 import React from 'react'
 
-//import classes from './error.module.css'
+import Layout from '../../hoc/Layout'
+
+//import classes from './Error.module.css'
 
 const Error = props => {
-  return <div>Error Page</div>
+  return(
+    <Layout>
+      <div>
+        Error Page
+      </div>
+    </Layout>
+  )
 }
 
 export default Error

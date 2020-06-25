@@ -4,7 +4,7 @@ import './App.css'
 import HomePage from './pages/homepage'
 import Products from './pages/products'
 import Product from './pages/products/product'
-import Error from './pages/error'
+import Error from './pages/Error'
 
 import { Route, Switch } from 'react-router-dom'
 
