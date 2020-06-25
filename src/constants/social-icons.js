@@ -4,14 +4,18 @@ import { FaFacebookF, FaTwitterSquare, FaInstagram } from 'react-icons/fa'
 export default [
   {
     icon: <FaFacebookF />,
-    url: 'https://facebook.com',
+    url: 'https://www.facebook.com/michelecorleyclinicalskincare/',
   },
   {
-    icon: <FaTwitterSquare />,
-    url: 'https://twitter.com',
+    icon: <FaYouTube />
+    url: 'https://www.youtube.com/channel/UCjVjZL0axnqV9EFCrCp3yaQ',
   },
   {
     icon: <FaInstagram />,
-    url: 'https://instagram.com',
+    url: 'https://www.instagram.com/michelecorleyskincare/',
+  },
+  {
+    icon: <img src="https://i.imgur.com/pOlKWBb.png" alt="instagram icon"/>,
+    url: 'https://www.instagram.com/michelecorleyskincare/'
   },
 ]
