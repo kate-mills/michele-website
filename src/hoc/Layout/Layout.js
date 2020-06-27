@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import classes from './Layout.module.css'
 
 import Aux from '../Aux'
 import Navbar from '../../components/Navbar'
@@ -8,7 +9,7 @@ class Layout extends Component {
     return (
       <Aux>
         <Navbar />
-        <main>{this.props.children}</main>
+        <main  className={classes.mainContent}>{this.props.children}</main>
       </Aux>
     )
   }
