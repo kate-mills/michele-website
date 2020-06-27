@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import classes from './Navbar.module.css'
 
-import Logo from '../Logo'
+import Logo from '../LogoDir'
 import links from '../../constants/links'
 import {Link} from 'react-router-dom'
 
