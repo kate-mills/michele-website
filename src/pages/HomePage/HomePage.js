@@ -1,11 +1,9 @@
 import React from 'react'
 
-//import classes from './HomePage.module.css'
+import classes from './HomePage.module.css'
 
 const HomePage = props => {
-  return(
-      <div>Hello from HomePage</div>
-  )
+  return <div className={classes.mainWhite}>Hello from HomePage</div>
 }
 
 export default HomePage

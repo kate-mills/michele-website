@@ -1,13 +1,16 @@
 import React from 'react'
-import classes from './Logo.module.css'
 
-const Logo = ({ src, alt }) => {
+import { Link } from 'react-router-dom'
+
+const Logo = () => {
   return (
-    <div className={classes.Logo}>
-      <a href="./">
-        <img src={src} alt={alt} />
-      </a>
-    </div>
+    <Link to="./">
+      <img
+        src="https://i.imgur.com/gLJ1OI4.png"
+        alt="Michele Corley Clinical Skincare Logo"
+        crossOrigin="anonymous"
+      />
+    </Link>
   )
 }
 export default Logo

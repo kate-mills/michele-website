@@ -1,3 +1,8 @@
-.content {
-  margin-top: 72px;
+.mainContent {
+  background-color: var(--mainWhite);
+  margin: 70px auto 75px auto;
+  width: 80vw;
+}
+.pageContent {
+  margin-top: 20px; 
 }

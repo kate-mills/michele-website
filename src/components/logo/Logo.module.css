@@ -1,12 +1,3 @@
-.Logo {
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-
-.Logo img {
+.LogoImg{
   max-height: 245px;
-  height: auto;
-  width: auto;
-  margin: 0 auto;
 }
