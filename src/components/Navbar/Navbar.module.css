@@ -1,6 +1,5 @@
-nav {
-  font-size: 15px;
-  transition: var(--mainTransition);
+.navBar {
+  font-size: .9rem;
  }
 .gridUpperContainer {
   display: grid;
@@ -11,10 +10,16 @@ nav {
 }
 .gridUpperContainer .gridUpperToggle .navBtn {
   border: none;
+  border-bottom-width: 2px;
+  color: #100d21;
   cursor: pointer;
-  outline: none;
-  margin: 0 auto 20px auto;
+  font-size: 15px;
   letter-spacing: var(--mainSpacing);
+  outline: none;
+  position: relative;
+  bottom: 35px;
+  visibility: collapse;
+  margin-bottom: 10px;
 }
 .gridUpperContainer .gridUpperLogo {
   margin: 0 auto;
@@ -36,6 +41,7 @@ nav {
   margin-right: 1px;
   text-align: center;
   text-transform: uppercase;
+  height: auto;
  }
 .gridLowerContainer li.gridItem a {
   text-decoration: none;
@@ -44,7 +50,6 @@ nav {
 .gridLowerContainer li.gridItem a:hover {
   color: #333;
 }
-
 @media screen and (max-width: 1183px) {
   .gridLowerContainer {
     grid-template-columns: repeat(4, 1fr);
@@ -53,5 +58,11 @@ nav {
 @media screen and (max-width: 661px) {
   .gridLowerContainer {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .hideLower {
+    display: none;
+  }
+  .gridUpperContainer .gridUpperToggle .navBtn{
+    visibility: visible;
   }
 }
