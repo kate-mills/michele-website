@@ -16,7 +16,7 @@ class Navbar extends Component {
   }
   render() {
     return (
-      <div className= {classes.header}>
+      <div className={classes.header}>
         <div className={classes.gridUpperContainer}>
           <div className={`${classes.gridUpperToggle} ${classes.gridItem}`}>
             <button
@@ -30,17 +30,22 @@ class Navbar extends Component {
             <Logo />
           </div>
         </div>
-      <nav className={classes.navBar}>
-        <ul
-          className={ this.state.isOpen ? `${classes.gridLowerContainer} ${classes.showLower}`: `${classes.gridLowerContainer} ${classes.hideLower}`}
-        >
-          {links.map((item, index) => {
-            return (<li className={classes.gridItem} key={index}>
-                <Link to={item.path}>{item.text}</Link>
-              </li>)
-          })}
-        </ul>
-      </nav>
+        <nav className={classes.navBar}>
+          <ul
+            className={
+              this.state.isOpen
+                ? `${classes.gridLowerContainer} ${classes.showLower}`
+                : `${classes.gridLowerContainer} ${classes.hideLower}`
+            }>
+            {links.map((item, index) => {
+              return (
+                <li className={classes.gridItem} key={index}>
+                  <Link to={item.path}>{item.text}</Link>
+                </li>
+              )
+            })}
+          </ul>
+        </nav>
       </div>
     )
   }

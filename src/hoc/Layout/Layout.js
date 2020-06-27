@@ -9,7 +9,7 @@ class Layout extends Component {
     return (
       <Aux>
         <Navbar />
-        <main  className={classes.mainContent}>{this.props.children}</main>
+        <main className={classes.mainContent}>{this.props.children}</main>
       </Aux>
     )
   }
