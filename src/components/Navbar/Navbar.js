@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import classes from './Navbar.module.css'
 
-import Logo from '../Logo'
-import links from '../../../constants/links'
+import Logo from './Logo'
+import links from '../../constants/links'
 import { Link } from 'react-router-dom'
 
 class Navbar extends Component {
@@ -16,6 +16,7 @@ class Navbar extends Component {
   }
   render() {
     return (
+      <header>
       <div className={classes.header}>
         <div className={classes.gridUpperContainer}>
           <div className={`${classes.gridUpperToggle} ${classes.gridItem}`}>
@@ -47,6 +48,7 @@ class Navbar extends Component {
           </ul>
         </nav>
       </div>
+      </header>
     )
   }
 }

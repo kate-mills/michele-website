@@ -1,3 +1,6 @@
+.titleContainer {
+  margin: 20px auto;
+}
 .title {
   font-weight: 300;
   max-width: 80vw;
