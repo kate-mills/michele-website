@@ -1,7 +1,6 @@
 import React from 'react'
-import classes from './Header.module.css'
+import classes from './Heading.module.css'
 
-import Navbar from './Navbar'
 
 const Header = props => {
   return (

@@ -43,7 +43,6 @@
   margin-right: 1px;
   text-align: center;
   text-transform: uppercase;
-  height: auto;
  }
 .gridLowerContainer li.gridItem a {
   text-decoration: none;
@@ -61,10 +60,17 @@
   .gridLowerContainer {
     grid-template-columns: repeat(1, 1fr);
   }
-  .hideLower {
-    display: none;
-  }
   .gridUpperContainer .gridUpperToggle .navBtn{
     visibility: visible;
   }
+ .hideLower {
+  height: 0;
+  overflow: hidden;
+  transition: height 1.66s linear;
+ }
+ .showLower {
+  height: 275px;
+  overflow: hidden;
+  transition: height 1.66s linear;
+ }
 }
