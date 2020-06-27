@@ -4,7 +4,7 @@ import classes from './Header.module.css'
 import Navbar from './Navbar'
 import Hero from './Hero'
 
-const Header = (props) => {
+const Header = props => {
   return (
     <header>
       <Navbar />
@@ -16,7 +16,7 @@ const Header = (props) => {
   )
 }
 Header.defaultProps = {
-  title: "Beautifully Healty Skin Starts Here"
+  title: 'Beautifully Healty Skin Starts Here',
 }
 
 export default Header
