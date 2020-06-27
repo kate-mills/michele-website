@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 :root {
   --primaryColor: #af9a7d;
   --mainWhite: #fff;
@@ -16,11 +15,10 @@
   --mccPink: #ff665e;
   --mainFont: #5c5c5c;
   --mainTransition: all 0.3s linear;
-  --mainSpacing: 3px;
+  --mainSpacing: 1px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
-
 html {
     background-image: none;
     background-position: top left;
@@ -30,16 +28,18 @@ html {
     background-color: var(--mccPink);
     color: var(--mainFont);
     font-family: 'Montserrat', sans-serif;
-    font-size: 100%;
+    font-style: normal;
+    margin: 0 auto;
+    max-width: 1030px;
+}
+body {
+    background-color: var(--mainWhite);
+    margin: 55px auto;
 }
 
 /* white background on smaller screens */
 @media screen and (max-width: 1024px) {
   html {
-    background-position: top left;
-    background-size: auto;
-    background-attachment: scroll;
-    background-repeat: repeat;
     background-color: var(--mainWhite);
   }
 }
