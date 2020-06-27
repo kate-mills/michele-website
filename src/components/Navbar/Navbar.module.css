@@ -11,9 +11,14 @@ nav {
   box-sizing: border-box;
 }
 .gridUpperContainer .gridUpperToggle {
+  margin: 0 auto;
+}
+.gridUpperContainer .gridUpperToggle .navBtn {
+  border: none;
   cursor: pointer;
-  text-align: center;
-  margin: 20px auto;
+  outline: none;
+  margin: 0 auto 20px auto;
+  letter-spacing: 1px;
 }
 .gridUpperContainer .gridUpperLogo {
   margin: 0 auto;
