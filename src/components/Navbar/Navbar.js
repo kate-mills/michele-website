@@ -16,7 +16,7 @@ class Navbar extends Component {
   }
   render() {
     return (
-      <header className= {classes.header}>
+      <div className= {classes.header}>
         <div className={classes.gridUpperContainer}>
           <div className={`${classes.gridUpperToggle} ${classes.gridItem}`}>
             <button
@@ -41,7 +41,7 @@ class Navbar extends Component {
           })}
         </ul>
       </nav>
-      </header>
+      </div>
     )
   }
 }
