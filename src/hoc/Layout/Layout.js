@@ -8,10 +8,8 @@ class Layout extends Component {
     return (
       <>
         <main className={classes.mainContent}>
-            <Navbar />
-          <div className={classes.pageContent}>
-            {this.props.children}
-          </div>
+          <Navbar />
+          <div className={classes.pageContent}>{this.props.children}</div>
         </main>
       </>
     )
