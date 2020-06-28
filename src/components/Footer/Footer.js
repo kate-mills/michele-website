@@ -21,11 +21,25 @@ const Footer = () => {
           )
         })}
       </div>
-      <div className={classes.copyright}>
-        copyright &copy; Michele Corley Company, 3055 Jefferson Street, Suite 3, Napa,CA 94558
+      <div className={classes.information}>
         <div>
-        {new Date().getFullYear()} 
-        All rights reserved.
+          <span className={classes.phone}>707.637.4996</span>
+            <span className={classes.tilda}>~</span>
+
+          <span className={classes.email}>info@michelecorley.com</span>
+        </div>
+        <div className={classes.address}>
+          <span className={classes.street}>3055 Jefferson Street, Suite 3
+            <span className={classes.comma}>, </span>
+          </span>
+          <span className={classes.cityState}>Napa, CA 94558</span>
+        </div>
+        <div>
+          <span className={classes.copyright}>copyright &copy; Michele Corley Company
+            <span className={classes.comma}>,</span>
+
+          </span>
+          <span className={classes.rights}>{new Date().getFullYear()} All rights reserved.</span>
         </div>
       </div>
     </footer>
