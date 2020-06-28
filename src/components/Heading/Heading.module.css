@@ -1,12 +1,11 @@
 .titleContainer {
-  margin: 20px auto;
+  margin: 10px auto;
+  height: 80px;
 }
 .title {
   font-weight: 300;
-  max-width: 80vw;
   text-align: center;
   color: #222222;
-  line-height: 1.2em;
   font-size: 2.5rem;
   letter-spacing: var(--mainSpacing);
 }
