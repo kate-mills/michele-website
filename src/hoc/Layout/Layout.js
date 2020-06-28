@@ -15,7 +15,9 @@ class Layout extends Component {
         <div className={classes.innerWrapper}>
         <Navbar />
         <main className={classes.mainContent}>
-          {this.props.children}
+          <div className={classes.page}>
+            {this.props.children}
+          </div>
         </main>
         <Footer />
       </div>

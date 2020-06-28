@@ -7,13 +7,15 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #af9a7d;
+  --primaryColor: #ff7e78;
+  --primaryComplement: #71a9ec;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainGrey: #ececec;
   --darkGrey: #cfcfcf;
   --mccPink: #ff665e;
+  --mccPinkAlt:  #ff7e78;
   --mainFont: #5c5c5c;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 1px;
@@ -74,16 +76,16 @@ a {
   text-decoration: none;
   letter-spacing: var(--mainSpacing);
   color: var(--mainBlack);
-  background: var(--primaryColor);
+  background: var(--primaryComplement);
   padding: 0.4rem 0.9rem;
-  border: 3px solid var(--primaryColor);
+  border: 3px solid var(--primaryComplement);
   transition: var(--mainTransition);
   text-transform: uppercase;
   cursor: pointer;
 }
 .btn-primary:hover {
   background: transparent;
-  color: var(--primaryColor);
+  color: var(--primaryComplement);
 }
 .loading {
   text-transform: capitalize;
