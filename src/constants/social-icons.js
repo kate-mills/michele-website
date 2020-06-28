@@ -5,13 +5,16 @@ export default [
   {
     icon: <GrFacebook />,
     url: 'https://www.facebook.com/michelecorleyclinicalskincare/',
+    class: 'facebook'
   },
   {
-    icon: <GrYouTube />,
+    icon: <GrYoutube />,
     url: 'https://www.youtube.com/channel/UCjVjZL0axnqV9EFCrCp3yaQ',
+    class: 'youtube'
   },
   {
     icon: <GrInstagram />,
     url: 'https://www.instagram.com/michelecorleyskincare/',
+    class: 'instagram'
   },
 ]

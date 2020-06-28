@@ -1,0 +1,57 @@
+.footer {
+  border-top: 1px solid grey;
+  margin-top: auto;
+  background: var(--mainWhite);
+  padding: 2rem;
+  text-align: center;
+  color: var(--mainBlack);
+}
+.links a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--mainBlack);
+  margin: 0.5rem .8rem;
+  letter-spacing: .5px;
+  transition: var(--mainTransition);
+  font-weight: normal;
+}
+.links a:hover {
+  color: var(--mccPink);
+}
+.follow {
+  margin-top: 20px;
+  font-style: italic;
+}
+.icons a {
+  display: inline-block;
+  margin: 1rem;
+  font-size: 2.3rem;
+  transition: var(--mainTransition);
+}
+.icons a:hover {
+  color: var(--mccPink);
+}
+.copyright {
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  line-height: 2;
+}
+.facebook{
+  background: white;
+  color: #3b5998;
+  box-sizing: border-box;
+}
+
+.youtube {
+  background: white;
+  color: #c4032b;
+  box-sizing: border-box;
+}
+
+.instagram{
+  color: #125688;
+  box-sizing: border-box;
+  height: 30px;
+}
+
