@@ -35,7 +35,6 @@ html {
 }
 body {
     background-color: var(--mainWhite);
-    margin: 55px auto;
 }
 h1 {
   font-size: 3em;
