@@ -1,0 +1,6 @@
+.largeImage {
+  display: flex;
+  width: fit-content;
+  max-width: 70vw;
+  height: auto;
+}
