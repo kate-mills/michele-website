@@ -14,6 +14,9 @@ class Navbar extends Component {
       console.log(this.state.isOpen)
     )
   }
+  closeMenu = () => {
+    this.setState({isOpen: false})
+  }
   render() {
     return (
       <header>
@@ -41,7 +44,8 @@ class Navbar extends Component {
               {links.map((item, index) => {
                 return (
                   <li className={classes.gridItem} key={index}>
-                    <Link to={item.path}>{item.text}</Link>
+                    <Link onClick={this.closeMenu}
+                    to={item.path}>{item.text}</Link>
                   </li>
                 )
               })}
