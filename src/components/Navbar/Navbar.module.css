@@ -66,11 +66,11 @@
  .hideLower {
   height: 0;
   overflow: hidden;
-  transition: height 1.66s linear;
+  transition: height 0.66s linear;
  }
  .showLower {
   height: 275px;
   overflow: hidden;
-  transition: height 1.66s linear;
+  transition: height 0.66s linear;
  }
 }
