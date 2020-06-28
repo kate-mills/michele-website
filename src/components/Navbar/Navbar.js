@@ -15,7 +15,7 @@ class Navbar extends Component {
     )
   }
   closeMenu = () => {
-    this.setState({isOpen: false})
+    this.setState({ isOpen: false })
   }
   render() {
     return (
@@ -44,8 +44,9 @@ class Navbar extends Component {
               {links.map((item, index) => {
                 return (
                   <li className={classes.gridItem} key={index}>
-                    <Link onClick={this.closeMenu}
-                    to={item.path}>{item.text}</Link>
+                    <Link onClick={this.closeMenu} to={item.path}>
+                      {item.text}
+                    </Link>
                   </li>
                 )
               })}

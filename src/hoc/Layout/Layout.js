@@ -9,19 +9,17 @@ class Layout extends Component {
   render() {
     return (
       <>
-      <div className={classes.outerWrapper}>
-        <span></span>
-      <Aux>
-        <div className={classes.innerWrapper}>
-        <Navbar />
-        <main className={classes.mainContent}>
-          <div className={classes.page}>
-            {this.props.children}
-          </div>
-        </main>
-        <Footer />
-      </div>
-      </Aux>
+        <div className={classes.outerWrapper}>
+          <span></span>
+          <Aux>
+            <div className={classes.innerWrapper}>
+              <Navbar />
+              <main className={classes.mainContent}>
+                <div className={classes.page}>{this.props.children}</div>
+              </main>
+              <Footer />
+            </div>
+          </Aux>
         </div>
       </>
     )

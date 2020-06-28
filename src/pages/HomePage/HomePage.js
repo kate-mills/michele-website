@@ -9,7 +9,7 @@ const HomePage = props => {
   return (
     <section>
       <Heading />
-      <Image showDefault/>
+      <Image showDefault />
       <article className={classes.pageArticle}>images</article>
 
       <article>yes no</article>
