@@ -1,6 +1,9 @@
 .navBar {
   font-size: .9rem;
  }
+ nav {
+   min-height: 72px;
+ }
 .gridUpperContainer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
