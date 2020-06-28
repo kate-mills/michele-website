@@ -8,16 +8,9 @@ const HomePage = props => {
   return (
     <section>
       <Heading />
-      <article 
-        className={classes.pageArticle}
-      > 
-        images
-      </article>
+      <article className={classes.pageArticle}>images</article>
 
-      <article>
-        yes no
-      </article>
-
+      <article>yes no</article>
     </section>
   )
 }

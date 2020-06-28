@@ -1,7 +1,6 @@
 import React from 'react'
 import classes from './Heading.module.css'
 
-
 const Header = props => {
   return (
     <div className={classes.titleContainer}>
