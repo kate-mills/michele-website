@@ -8,11 +8,13 @@ import Footer from '../../components/Footer'
 class Layout extends Component {
   render() {
     return (
+      <>
       <Aux>
         <Navbar />
-        <main className={classes.mainContent}>{this.props.children}</main>
+          <main className={classes.mainContent}>{this.props.children}</main>
         <Footer />
       </Aux>
+      </>
     )
   }
 }
