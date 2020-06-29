@@ -1,7 +1,11 @@
+.titleContainer {
+  min-height: 80px;
+}
 .title {
   font-weight: 400;
   text-align: center;
   color: #222222;
   font-size: 2.5rem;
   letter-spacing: var(--mainSpacing);
+  white-space: normal;
 }

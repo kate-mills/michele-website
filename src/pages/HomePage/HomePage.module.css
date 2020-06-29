@@ -1,0 +1,44 @@
+.flexibleParent, .flexibleParent2 {
+  display: flex;
+  margin: 20px auto;
+  flex-direction: row;
+}
+.flexibleParent {
+  min-height: 318px;
+}
+.flexibleParent2 {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.flexibleParent2 > div{
+  text-align: center;
+  padding: 20px;
+}
+.flexibleParent > div {
+  padding-top: 20px;
+}
+.pinkH1{
+  white-space: pre-wrap;
+  color: rgba(179,0,0,.8);
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.pinkH2 {
+  white-space: pre-wrap;
+  color: rgba(179,0,0,.8);
+  font-size: 20px !important;
+}
+.italic {
+  font-style: italic;
+  font-size: 20px !important;
+}
+.yesNo > ul{
+  font-size: 15px;
+  font-weight:300;
+}
+.long{
+  display: block;
+}
+ul li {
+  line-height:1.8em;
+}
