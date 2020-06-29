@@ -9,7 +9,7 @@ const Header = props => {
   )
 }
 Header.defaultProps = {
-  title: 'Beautifully Healty Skin Starts Here',
+  title: 'Beautifully Healthy Skin Starts Here',
 }
 
 export default Header

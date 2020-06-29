@@ -1,5 +1,8 @@
 .titleContainer {
-  min-height: 80px;
+  position: relative;
+  bottom: 60px;
+  max-width: 80vw;
+  max-height: 100%;
 }
 .title {
   font-weight: 400;
