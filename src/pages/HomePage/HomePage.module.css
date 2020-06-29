@@ -2,6 +2,7 @@
   display: flex;
   margin: 20px auto;
   flex-direction: row;
+  max-width: 70vw;
 }
 .flexibleParent {
   min-height: 318px;
@@ -41,4 +42,9 @@
 }
 ul li {
   line-height:1.8em;
+}
+@media screen and (max-width: 600px) {
+  .flexibleParent{
+    flex-direction: column;
+  }
 }
