@@ -16,58 +16,36 @@
   --darkGrey: #cfcfcf;
   --mccPink: #ff665e;
   --mccPinkAlt:  #ff7e78;
-  --mainFont: #5c5c5c;
+  --mainFont: rgba(16, 13, 33, 0.7); 
   --mainTransition: all 0.3s linear;
   --mainSpacing: 1px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
-html {
+html{
     background-image: none;
     background-position: top left;
     background-size: auto;
     background-attachment: scroll;
     background-repeat: repeat;
     background-color: var(--mccPink);
-    color: var(--mainFont);
     font-style: normal;
     max-width: 1030px;
+    line-height:27px;
+    font-size: 100%;
 }
 body {
-  margin: 55px auto;
+  margin: 5%;
   background-color: var(--mainWhite);
   font-family: proxima-nova, sans-serif;
+  font-size: 15px;
+  color: var(--mainFont);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
+  line-height: 1.6em;
 }
-h1 {
-  font-size: 3em;
-  line-height: 1;
-  margin-bottom: 0.5em;
-}
-h2 {
-  font-size: 2em;
-  margin-bottom: 0.75em;
-}
-h3 {
-  font-size: 1.5em;
-  line-height: 1;
-  margin-bottom: 1em;
-}
-h4 {
-  font-size: 1.2em;
-  line-height: 1.25;
-  margin-bottom: 1.25em;
-}
-h5 {
-  font-size: 1em;
-  font-weight: bold;
-  margin-bottom: 1.5em;
-}
-h6 {
-  font-size: 1em;
-  font-weight: bold;
-  margin-bottom: 1.5em;
+h1,h2,h3,h4,h5,h6{
+  margin: 1em 0 .3em;
 }
 a {
   letter-spacing: var(--mainSpacing);
@@ -108,7 +86,8 @@ a {
 
 /* white background on smaller screens */
 @media screen and (max-width: 1024px) {
-  html {
+  body {
+    margin: 2px;
     background-color: var(--mainWhite);
   }
 }

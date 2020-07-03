@@ -22,10 +22,9 @@ const Footer = () => {
       </div>
       <div className={classes.information}>
         <div>
-          <span className={classes.phone}>707.637.4996</span>
-          <span className={classes.tilda}>~</span>
-
-          <span className={classes.email}>info@michelecorley.com</span>
+          <p className={classes.phone}>707.637.4996</p>
+          <span className={classes.tilda}></span>
+          <p className={classes.email}>info@michelecorley.com</p>
         </div>
         <div className={classes.address}>
           <span className={classes.street}>
@@ -35,13 +34,12 @@ const Footer = () => {
           <span className={classes.cityState}>Napa, CA 94558</span>
         </div>
         <div>
-          <span className={classes.copyright}>
-            copyright &copy; Michele Corley Company
-            <span className={classes.comma}>,</span>
-          </span>
-          <span className={classes.rights}>
+          <p className={classes.copyright}>
+            copyright &copy; Michele Corley Company,
+          </p>
+          <p className={classes.rights}>
             {new Date().getFullYear()} All rights reserved.
-          </span>
+          </p>
         </div>
       </div>
     </footer>
