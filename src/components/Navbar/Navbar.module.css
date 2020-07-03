@@ -1,5 +1,5 @@
 nav ul {
-  padding: 0 38px;
+  padding: 0 auto;
 }
 a {
   font-size: 15px;
@@ -38,8 +38,9 @@ a {
 .gridLowerContainer li.gridItem {
   padding: 8px;
   list-style: none; 
-  text-align: center;
   text-transform: uppercase;
+  text-align: center;
+  margin: 0 3px;
  }
 .gridLowerContainer li.gridItem a {
   text-decoration: none;

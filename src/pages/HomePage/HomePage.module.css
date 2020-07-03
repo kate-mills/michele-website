@@ -2,7 +2,6 @@
   display: flex;
   margin: 30px auto;
   flex-direction: row;
-  max-width: 80%;
 }
 .flexibleParent2 {
   flex-direction: column;
@@ -43,14 +42,14 @@
 ul li {
   line-height:1.8em;
 }
+
+.yesNo > ul >  li>*:first-child::before{
+  content: "\2022";
+  padding-right: 10px;
+}
 @media screen and (max-width: 600px) {
   .flexibleParent1{
     flex-direction: column;
     flex-wrap: wrap;
   }
-}
-
-.yesNo > ul >  li>*:first-child::before{
-  content: "\2022";
-  padding-right: 10px;
 }
