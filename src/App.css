@@ -35,7 +35,7 @@ html{
     font-size: 100%;
 }
 body {
-  margin: 5%;
+  margin: 2%;
   background-color: var(--mainWhite);
   font-family: proxima-nova, sans-serif;
   font-size: 15px;
@@ -87,7 +87,7 @@ a {
 /* white background on smaller screens */
 @media screen and (max-width: 1024px) {
   body {
-    margin: 2px;
+    margin: 1px;
     background-color: var(--mainWhite);
   }
 }
